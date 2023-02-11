@@ -99,3 +99,28 @@ body {
     color:#333;
     border-color: #333;
 }
+
+/* Footer - rodapé */
+
+footer {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 42px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#left-bar, #right-bar {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#right-bar {
+    position: absolute;
+    right: 0;
+    
+}
